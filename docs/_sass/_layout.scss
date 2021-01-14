@@ -382,24 +382,13 @@ a.site-title {
 }
 
 #display {
-  @include media($small) {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    float: left;
-  }
-  @include media($medium) {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    float: left;
-  }
+    background-image: url("images/01_soldering_FineSolderWork/module-hand-solder-oct2019.jpg");
+    background-color: #ccc;
+
   @include media($large) {
     width: 50%;
     height: auto;
     float: right;
-    background-image: url("images/01_soldering_FineSolderWork/module-hand-solder-oct2019.jpg");
-    background-color: #ccc;
   }
 
 }
