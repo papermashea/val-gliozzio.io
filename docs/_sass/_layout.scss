@@ -25,7 +25,6 @@
 
 .site-title {
   @include row;
-
   @include media($large) {
     @include span-columns(4);
   }
@@ -43,6 +42,9 @@
   text-transform: uppercase;
 }
 
+a.site-title {
+  float:left;
+}
 
 /*
    Menus
