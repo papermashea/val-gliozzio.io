@@ -1,6 +1,8 @@
 ---
 layout: details
 title: Contact
+baseurl: /val-gliozzi.io
+url: /contact
 ---
 
 <h2>email</h2>
