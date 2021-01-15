@@ -20,6 +20,15 @@
 
   .inner-wrap {
     @include outer-container;
+    @include media($large){
+      max-width: 100%;
+    }
+  }
+}
+
+#home-wrap {
+  @include media($large){
+    max-width: 100%;
   }
 }
 
@@ -376,7 +385,7 @@ a.site-title {
     float: left;
   }
   @include media($large) {
-    width: 50%;
+    width: 45%;
     float: left;
   }
 
@@ -384,12 +393,13 @@ a.site-title {
 
 #display {
     background-image: url("images/01_soldering_FineSolderWork/module-hand-solder-oct2019.jpg");
-    background-color: #ccc;
+    background-color: #fff;
 
   @include media($large) {
     width: 50%;
     height: auto;
     float: right;
+    padding: 0 0 0 2%;
   }
 
 }
@@ -486,6 +496,10 @@ li.card {
 
 #site-footer {
   @include outer-container;
+
+  // @include media($large){
+  //     margin-left: 5%;
+  //   }
 
   margin-top: (3 * (0 + $doc-line-height));
   margin-top: (3 * (0 + ($doc-line-height / $doc-font-size)));
