@@ -28,7 +28,7 @@ plugins:
 
 # Site owner
 owner: 
-  name: 
+  name:
   email: valgliozzi@gmail.com
   bio: Software and hardware engineering, rapid prototyping, fabrication and construction.
   avatar: VG_Newlab.jpg # 160x160 px image for author byline
