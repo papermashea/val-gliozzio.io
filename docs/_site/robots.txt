@@ -1,1 +1,1 @@
-Sitemap: /val-gliozzi.io/sitemap.xml
+Sitemap: http://localhost:4000/val-gliozzi.io/sitemap.xml
