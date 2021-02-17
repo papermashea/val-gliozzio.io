@@ -8,7 +8,7 @@ layout: default
 	{% if page.image.feature %}
 	<div class="page-feature">
 		<div class="page-image">
-			<img src="{{ site.url }}{{ site.baseurl }}/images/{{ page.image.feature }}" class="page-feature-image" alt="{{ page.title }}" itemprop="image">
+			<img src="/{{ site.baseurl }}/images/{{ page.image.feature }}" class="page-feature-image" alt="{{ page.title }}" itemprop="image">
 			{% if page.image.credit %}{% include image-credit.html %}{% endif %}
 		</div><!-- /.page-image -->
 	</div><!-- /.page-feature -->
@@ -23,8 +23,8 @@ layout: default
 			<ul class="grid">
 			  {% for i in (1..num) %}
 			  <li>
-			    <a href="{{ site.baseurl }}/images/{{page.photos.gallery}}/{{ page.photos.set }}-{{ i }}.jpg" alt="Photo {{ i }} from {{ page.photos.set | capitalize }}" target="_blank">
-				    <img src="{{ site.baseurl }}/images/{{page.photos.gallery}}/{{ page.photos.set }}-{{ i }}.jpg" alt="Photo {{ i }} from {{ page.photos.set | capitalize }}" class="project-grid">
+			    <a href="/{{ site.baseurl }}/images/{{page.photos.gallery}}/{{ page.photos.set }}-{{ i }}.jpg" alt="Photo {{ i }} from {{ page.photos.set | capitalize }}" target="_blank">
+				    <img src="/{{ site.baseurl }}/images/{{page.photos.gallery}}/{{ page.photos.set }}-{{ i }}.jpg" alt="Photo {{ i }} from {{ page.photos.set | capitalize }}" class="project-grid">
 				</a>
 			  </li>
 			  {% endfor %}
